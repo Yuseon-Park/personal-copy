@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'FFBauRegular';
+  src: url("fonts/FFBauRegular.woff");
+  font-weight: normal;
+  font-style: normal; }
+  
+#container img.zoomed {
+  transform: scale(4);
+  cursor: pointer;
+}
+  
+.index {
+  word-spacing: 4px;
+  line-height: 8px;
+  padding: 1.2rem;
+}
+
+.cc {
+  font-size: 0;
+}
+
+.p-x {
+  padding-top: 1.2rem!important;
+  padding-bottom: 1.2rem!important;
+  padding-left: 1.2rem!important;
+  padding-right: 1.2rem!important;
+}
+
+header {
+  display: block;
+  font-family: 'FFBauRegular', sans-serif;
+  color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  transition: opacity 0.3s ease 0s;
+  letter-spacing: -1px;
+}
+
+html, body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+span {
+  font-family: 'FFBauRegular', sans-serif;
+  color: white;
+  font-size: 18vh;
+  vertical-align: 8px;
+  /* font-weight: bold; */
+  padding-right: 8px;
+  line-height: 0;
+  transition: opacity 0.3s ease 0s;
+  letter-spacing: -1px;
+}
+
+body {
+  background: #878683;
+  position: relative;
+}
+
+div, span, object, iframe, img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: inline-block;
+  height: 15.2vh;
+  width: auto;
+  margin-right: 1px;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+a img {
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #878683;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  outline: none;
+  box-shadow: 0 0 3px 1px #227755;
+  border-color: blue;
+}
+
+/*scrollbar*/
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #878683;
+}
+
+::selection {
+  color: #fff;
+  background: #878683;
+}
+
+::-webkit-scrollbar {
+  /* width */
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  /* Track */
+  /* background: #f1f1f1;  */
+  background: #86878b;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Handle */
+  background: #46484b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Handle on hover */
+  background: white;
+}
+
+.nav {
+  color: white;
+  font-size: 2vh;
+  line-height: 1.4;
+  font-family: 'FFBauRegular', sans-serif;
+  position: fixed;
+  text-align: center;
+  width: 72px;
+  height: auto;
+  right: 10px;
+  top: 10px;
+  padding: 20px;
+  background: transparent;
+  /* border-radius: 50%; */
+  z-index: 999;
+  cursor: pointer;
+}
+
+.start {
+color: white;
+/* border: 2px solid white; */
+font-size: 3vh;
+line-height: 1.4;
+text-indent: 10%;
+/* border-radius: 50%; */
+max-width: 80%;
+transition: all 500ms ease;
+}
+
+.hide {
+display: none;
+cursor: pointer;
+}
+  
+.start:hover + .hide {
+display: block;
+color: #878683;
+font-size: 3vh;
+line-height: 1.4;
+max-width: 80%;
+transition: all 500ms ease;
+cursor: pointer;
+}
+
+
+img.site-footer-img {
+    max-width: 100%;
+    height: auto;
+}
